@@ -1,0 +1,15 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    padding: 2% 5% 0% 5%; 
+}
+
+.container {
+    padding: 0% 15% 0% 15%;
+}
+
+.article-container {
+    margin: 3% 0% 3% 0%
+}
