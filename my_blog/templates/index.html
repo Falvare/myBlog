@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{% block title %}{% endblock title %}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href={% static 'style.css' %}>
+    </head>
+    <body>
+        <header>
+            <a href={% url 'articles' %}><h1>FADEV.io</h1></a>
+        </header>
+        <div class="container">
+            {% block content %}{% endblock content %}
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
