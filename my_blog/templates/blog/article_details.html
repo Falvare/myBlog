@@ -5,6 +5,29 @@
 
 <h1>{{article.title}}</h1>
 <h3>posted by {{article.author}} on {{article.published}}</h3>
-<p>{{article.body}}</p>
+
+{% if article.image1 %}
+    <img class='image-1' src='{{ article.image1.url }}'>
+{% endif %}
+
+{% if article.technologies %}
+    <h2>Technologies:</h2>
+    <p>{{article.technologies}}</p>
+{% endif %}
+
+<h2 class='section label'>{{article.sectionLabel1}}</h2>
+<p>{{article.section1}}</p>
+
+{% if article.image2 %}
+    <img class='image-2' src='{{ article.image2.url }}'>
+{% endif %}
+<h2 class='section label'>{{article.sectionLabel2}}</h2>
+<p>{{article.section2}}</p>
+
+{% if article.image3 %}
+    <img class='image-3' src='{{ article.image3.url }}'>
+{% endif %}
+<h2 class='section label'>{{article.sectionLabel3}}</h2>
+<p>{{article.section3}}</p>
 
 {% endblock content %}

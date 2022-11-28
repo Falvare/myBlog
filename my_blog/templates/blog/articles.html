@@ -8,7 +8,7 @@
         <div class='article-container'>
             <a href={% url 'article details' article.slug %}><h1>{{article.title}}</h1></a>
             <p>posted by {{article.author}} on {{article.published}}</p>
-            <p>{{article.body | truncatewords:25 | linebreaks}}</p>
+            <p>{{article.section1 | truncatewords:25 | linebreaks}}</p>
         </div>
     {% endfor %}
     {% include 'pagination.html' with page=page_obj %}
