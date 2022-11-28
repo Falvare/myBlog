@@ -1,0 +1,43 @@
+* {
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header {
+    padding: 1% 5% 0% 5%; 
+}
+
+.container {
+    padding: 0% 15% 0% 15%;
+}
+
+.article-container {
+    margin: 3% 0% 3% 0%
+}
+
+.image-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 500px;
+    height: 500px;
+}
+
+.image-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 500px;
+    height: 500px;
+}
+
+.image-3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 500px;
+    height: 500px;
+}
